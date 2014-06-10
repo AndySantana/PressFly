@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+	<header>
+		<div class="sub-header">
+			<a href="#" class="logo">Press Fly</a>
+			<input type="password" class="fly" placeholder="Write Something">
+			<input type="checkbox" class="showPass" id="mostrar">
+			<label for="mostrar">Show Password</label>
+		</div>
+	</header>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jQuery.PressFly.js"></script>
+	<script>
+	$(document).on("ready",function(){
+
+		$("input.fly").pressFly();
+
+	});
+	</script>
+</body>
+</html>
