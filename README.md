@@ -11,3 +11,6 @@ Muestra u oculta la contraseña de un input tipo password.
 3- Agregar un checkbox o boton con la clase "showPass"
 
 4- Hacemos la llamada al plugins colocando : $("input.fly").pressFly();
+
+
+DEMO : http://pressfly.hol.es
