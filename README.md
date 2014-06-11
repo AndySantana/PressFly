@@ -4,7 +4,7 @@ PressFly
 
 Muestra u oculta la contraseña de un input tipo password.
 
-1- Importamos jQuery y el plugins PressFly
+1- Importar jQuery y el plugins PressFly
 
 2- Agregar al input tipo password la clase "fly"
 
